@@ -1,0 +1,26 @@
+# Backups, caches, en tijdelijke bestanden
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# macOS metadata
+.DS_Store
+
+# Shell history-bestanden
+.bash_history
+.zsh_history
+
+# Tmux sessie- of resurrect-data
+.tmux/resurrect/
+.tmux/plugins/
+
+# Private SSH keys (voor het geval je iets toevoegt)
+id_rsa
+id_ed25519
+*.pem
+*.key
+
+# Dotfiles repo intern gebruik
+*.local
